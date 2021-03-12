@@ -1,0 +1,37 @@
+/*Define your CSS here*/
+@font-face{
+
+	font-family:ArcaMajoraBold;
+	src: url(ArcaMajoraBold.otf);
+}
+
+p{
+
+	font-family:ArcaMajoraBold;
+	font-size:90px;
+
+	color:white;
+	-webkit-text-stroke: 3.5px black;
+
+}
+
+div {
+
+	width:300px;
+	height:300px;
+	display:inline-flex;
+	position:relative;
+	padding:40px;
+	top:100px;
+}
+
+.city , .home , .oatmeal , .dessert {
+
+	filter:grayscale(100%);
+}
+
+.clear {
+
+filter:saturate(100%);
+
+}
