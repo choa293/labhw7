@@ -30,6 +30,8 @@ div {
 	height:300px;
 	filter:grayscale(100%);
 
+/*i looked up how to do the filter on the images from https://www.w3schools.com/howto/howto_css_image_bw.asp*/
+
 }
 
 .clear {
